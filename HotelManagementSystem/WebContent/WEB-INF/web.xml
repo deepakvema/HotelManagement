@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>HotelManagementSystem</display-name>
+   <servlet-mapping>
+  <servlet-name>sample</servlet-name>
+  
+  <url-pattern>/view/registration</url-pattern>
+  <url-pattern>/view/loginValidation</url-pattern>
+  <url-pattern>/view/addHotels</url-pattern>
+  <url-pattern>/view/addRoom</url-pattern>
+  <url-pattern>/view/modifyHotel</url-pattern>
+  <url-pattern>/view/modifyRoom</url-pattern>
+  <url-pattern>/view/deleteRoom</url-pattern>
+  <url-pattern>/view/deleteHotel</url-pattern>
+  <url-pattern>/view/customerLoginValidation</url-pattern>
+  <url-pattern>/view/searchForHotels</url-pattern>
+  <url-pattern>/view/bookHotels</url-pattern>
+  <url-pattern>/view/confirmBooking</url-pattern>
+  <url-pattern>/view/hotelStatus</url-pattern>
+  <url-pattern>/view/getHotels</url-pattern>
+  <url-pattern>/view/getBookingsList</url-pattern>
+  <url-pattern>/view/getBookingOnHotel</url-pattern>
+  <url-pattern>/view/guestListOfHotel</url-pattern>
+ </servlet-mapping>
+ <servlet>
+  <servlet-name>sample</servlet-name>
+  <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  </servlet>
+  
+  </web-app>
