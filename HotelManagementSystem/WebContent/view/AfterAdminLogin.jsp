@@ -9,6 +9,19 @@
     <link rel="stylesheet" type="text/css" href="Hotel.css">
     <link rel="icon" type="image/png" href="favicon-16x16.png" id="icon" />
 </head>
+<script>
+function noBack() {
+    window.history.forward()
+}
+noBack();
+window.onload = noBack;
+window.onpageshow = function(evt) {
+    if (evt.persisted) noBack()
+}
+window.onunload = function() {
+    void(0)
+}
+</script>
 <div align="center">
     <body>
         <style>
