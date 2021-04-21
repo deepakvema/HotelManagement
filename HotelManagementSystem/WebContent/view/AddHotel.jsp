@@ -11,7 +11,7 @@ function validate()
 		alert("please enter hotel name");
 		document.addhotel.hname.focus();
 		return false;
-		}
+ }
 	if((hotelname.length<=5)||(hotelname.length>=25))
 	{
 		alert("hotel name length min=5,max=25");
@@ -266,7 +266,7 @@ function validate()
                 <h3>upto 50% Off </h3>
             </div>
             </div>
-            <div style="background-color:AliceBlue;text-align:center;padding:10px;margin-top:7px;">© copyright GoHotels.com</div>
+            <div style="background-color:AliceBlue;text-align:center;padding:10px;margin-top:7px;">Â© copyright GoHotels.com</div>
     </body>
 </div>
 </html>
